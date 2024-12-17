@@ -1,0 +1,45 @@
+h1{
+    color:black;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.grid-container{
+    display : grid;
+    height : 800px;
+    width : 800px;
+    background-color:rgb(0,0,0,0.6);
+    grid-template-rows: repeat(5,152px);
+    grid-template-columns: repeat(5,152px);
+    gap : 10px;
+    margin: 10%px ;
+    padding: 1%;
+    border-radius:2%;
+}
+
+.item{
+    background-color: rgb(253, 210, 217);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+.num{
+    background-color: rgba(232, 154, 167);
+}
+.screen{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 3rem;
+    color:white;
+    height: 400px;
+    width: 400px;
+    background : black;
+    border-radius:5%;
+}
